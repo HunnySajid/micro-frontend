@@ -16,7 +16,7 @@ const prodConfig = {
             name: 'container',
             remotes: {
                 // making an assumption that remoteEntry file would be store in a folder named marketing on domain
-                marketing: `marketing@${domain}/marketing/remoteEntry.js`
+                marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`
             },
             shared: packageJson.dependencies,
         }),
