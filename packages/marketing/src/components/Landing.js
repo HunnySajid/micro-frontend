@@ -79,7 +79,7 @@ export default function Album() {
               color="textPrimary"
               gutterBottom
             >
-              Mfe#1 Home Page
+              Mfe#1 - Home Page
             </Typography>
             <Typography
               variant="h5"
