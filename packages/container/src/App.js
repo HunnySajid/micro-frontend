@@ -1,10 +1,15 @@
-import React from 'react';
-import MarketingApp from './components/MarketingApp';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import MarketingApp from "./components/MarketingApp";
+import Header from "./components/Header";
 
 export default () => {
-    return <div>
-        <h1> Hi Micro Frontend!!!</h1>
-        <hr />
+  return (
+    <BrowserRouter>
+      <div>
+        <Header />
         <MarketingApp />
-    </div>
+      </div>
+    </BrowserRouter>
+  );
 };
