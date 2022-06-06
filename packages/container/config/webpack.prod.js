@@ -14,7 +14,7 @@ const prodConfig = {
         new ModuleFederationPlugin({
             name: 'container',
             remotes: {
-                // making an assumption that remoteEntry file woule be store in a folder named marketing on domain
+                // making an assumption that remoteEntry file would be store in a folder named marketing on domain
                 marketing: `marketing@${domain}/marketing/remoteEntry.js`
             },
             shared: packageJson.dependencies,
